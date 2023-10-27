@@ -21,5 +21,10 @@ module.exports.routeUser = [
         method: "put",
         action: user.updateUser
     },
+    {
+        path: "/user/login",
+        method: "post",
+        action: user.loginUser
+    }
 
 ]

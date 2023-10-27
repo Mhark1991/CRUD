@@ -1,8 +1,8 @@
 const jwt = require("../controller/c_jwt")
 
-const routeJWT = [
+module.exports.routeJWT = [
     {
-        path: "/jwt/validate",
+        path: "/jwt/validate/:token",
         method: "get",
         action: jwt.validateToken
     },
