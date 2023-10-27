@@ -12,7 +12,7 @@ module.exports.routeUser = [
         action: user.findAll
     },
     {
-        path: "/user/createUser/",
+        path: "/user/register/",
         method: "post",
         action: user.createUser
     },
